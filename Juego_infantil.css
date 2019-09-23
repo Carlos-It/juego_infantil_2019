@@ -1,15 +1,24 @@
-html, body, div {
+ /* div {
     height: 100%;
     margin: 0;
-    background-color: rgb(202, 9, 9);
+    /* background-color: rgb(202, 9, 9);
+
+  }*/
+
+  body{
+    background-image: url(art-attack_disney.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80% ; 
+bottom: 25%;
+
   }
   .fondo {
     position:absolute; 
     z-index:1;
-    margin-top: 5%;
+    margin-top: 15%;
     height: 100%;
-    /* background-image: url(image1.png);
-    background-repeat: no-repeat;
+    /*
      */
     background-position: top;
     background-size: auto; 
