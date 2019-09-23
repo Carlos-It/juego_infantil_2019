@@ -5,12 +5,19 @@
 
   }*/
 
+  
   body{
-    background-image: url(art-attack_disney.jpg);
+    background-image: url(49649245.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80% ; 
-bottom: 25%;
+    background-position: top;
+    background-size: 75%;
+    cursor: url(pincel_azul_mini.png), auto;
+
+    /*CUIDADO CON EL TAMAÑO DE LA IMAGEN PARA CURSOR*/
+
+    /* background-position: center;
+    background-size: 90% ;
+    bottom: 50%; */
 
   }
   .fondo {
@@ -32,6 +39,8 @@ bottom: 25%;
   }
 
 
+  
+
 canvas {
  
   position: fixed;
@@ -40,7 +49,7 @@ canvas {
   left: 35%;
   width: 500px;
     height:500px;
-    background-color: #0D0909;
+    background-color: white;
     
 
 

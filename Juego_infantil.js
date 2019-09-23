@@ -37,7 +37,7 @@
                 ctx.lineJoin = ctx.lineCap = 'round';
                 ctx.lineWidth = 10;
                 // Color de la linea
-                ctx.strokeStyle = '#fff';
+                ctx.strokeStyle = 'blue';
                 // Marca el nuevo punto
                 let nuevaPosicionX = 0;
                 let nuevaPosicionY = 0;
