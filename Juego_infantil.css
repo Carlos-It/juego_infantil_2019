@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: 75%;
-    cursor: url(pincel_azul_mini.png), auto;
+    cursor: url(pincel_negro_mini.png), auto;
 
     /*CUIDADO CON EL TAMAÑO DE LA IMAGEN PARA CURSOR*/
 
@@ -20,18 +20,27 @@
     bottom: 50%; */
 
   }
+  
+  
+  /* 
   .fondo {
     position:absolute; 
     z-index:1;
     margin-top: 15%;
     height: 100%;
-    /*
-     */
+    
     background-position: top;
     background-size: auto; 
-  }
+  } */
 
-  img {
+  .latas {
+    position: absolute;
+}
+
+
+  .latas img {
+    position: relative;
+    bottom: 0;
     display: block;
     margin-left: 15%;
     margin-right: auto;
