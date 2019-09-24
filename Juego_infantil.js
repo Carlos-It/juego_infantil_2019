@@ -97,27 +97,27 @@ function cambiarColor(color) {
     switch (color) {
         case 'roja':
             colorLinea = 'red';
-            cuerpo.style.cursor= "url(pincel_rojo_mini.png), auto";
+            cuerpo.style.cursor= "url(recursos/pincel_rojo_mini.png), auto";
             break;
         case 'naranja':
             colorLinea = 'orange';
-            cuerpo.style.cursor= "url(pincel_naranja_mini.png), auto";
+            cuerpo.style.cursor= "url(recursos/pincel_naranja_mini.png), auto";
             break;
         case 'azul':
             colorLinea = 'blue';
-            cuerpo.style.cursor= "url(pincel_azul_mini.png), auto";
+            cuerpo.style.cursor= "url(recursos/pincel_azul_mini.png), auto";
             break;
         case 'negra':
             colorLinea = 'black';
-            cuerpo.style.cursor= "url(pincel_negro_mini.png), auto";
+            cuerpo.style.cursor= "url(recursos/pincel_negro_mini.png), auto";
             break;
         case 'verde':
             colorLinea = 'green';
-            cuerpo.style.cursor= "url(pincel_verde_mini.png), auto";
+            cuerpo.style.cursor= "url(recursos/pincel_verde_mini.png), auto";
             break;
         case 'goma':
             colorLinea = 'white';
-            cuerpo.style.cursor= "url(goma_puntero_raton.png), auto";
+            cuerpo.style.cursor= "url(recursos/goma_puntero_raton.png), auto";
             break;
     }
 }
